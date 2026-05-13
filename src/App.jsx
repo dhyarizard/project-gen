@@ -265,36 +265,36 @@ const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const style = `
   @font-face {
     font-family: 'Ngetic Modern';
-    src: url('/src/fonts/NgeticModern-Regular.otf') format('truetype');
+    src: url('/fonts/NgeticModern-Regular.otf') format('truetype');
     font-weight: 400;
   }
 
   @font-face {
     font-family: 'Ngetic Modern Italic';
-    src: url('/src/fonts/NgeticModern-Italic.otf') format('truetype');
+    src: url('/fonts/NgeticModern-Italic.otf') format('truetype');
     font-weight: 400;
   }
 
   @font-face {
     font-family: 'Neue Montreal';
-    src: url('/src/fonts/NeueMontreal-Regular.otf') format('truetype');
+    src: url('/fonts/NeueMontreal-Regular.otf') format('truetype');
     font-weight: 400;
   }
 
   @font-face {
     font-family: 'Neue Montreal Light';
-    src: url('/src/fonts/NeueMontreal-Light.otf') format('truetype');
+    src: url('/fonts/NeueMontreal-Light.otf') format('truetype');
   }
 
   @font-face {
     font-family: 'Neue Montreal Medium';
-    src: url('/src/fonts/NeueMontreal-Medium.otf') format('truetype');
+    src: url('/fonts/NeueMontreal-Medium.otf') format('truetype');
   }
 
 
   @font-face {
     font-family: 'Neue Montreal Bold';
-    src: url('/src/fonts/NeueMontreal-Bold.otf') format('truetype');
+    src: url('/fonts/NeueMontreal-Bold.otf') format('truetype');
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
