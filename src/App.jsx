@@ -542,7 +542,7 @@ const style = `
   .footer {
   margin-top: 60px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--muted);
   letter-spacing: 0em;
   font-family: 'Neue Montreal Medium', sans-serif;
