@@ -538,6 +538,14 @@ const style = `
   }
 
   .regen-btn:hover { border-color: #555; color: var(--text); }
+
+  .footer {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  }
 `;
 
 // ─── COMPONENT ───────────────────────────────────────────────────────────────
@@ -641,6 +649,7 @@ export default function ProjectGenerator() {
             <button className="regen-btn" onClick={generate}>↻ Regenerate</button>
           </div>
         )}
+        <p className="footer">Say hi to your portfolio for me :3 - Aadhya</p>
       </div>
     </>
   );
